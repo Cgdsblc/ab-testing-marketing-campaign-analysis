@@ -1,22 +1,34 @@
-📊 A/B Testing Project - Marketing Campaign Analysis
+# 📊 A/B Testing Project - Marketing Campaign Analysis
 
-📝 Project Overview
+## Project Overview
 
 This project analyzes the effectiveness of two marketing strategies: advertisements (ad group) versus public service announcements (psa group). Using an A/B testing dataset, we aim to determine which strategy leads to higher conversion rates through statistical analysis and data visualization.
 
-❓ Problem Statement
+## ❓ Problem Statement
 
 The marketing team wants to identify the more effective campaign type between ad and psa groups to optimize conversions while reducing marketing costs.
 
-🎯 Hypothesis
+## 🎯 Objective
+
+Evaluate the impact of the ad and psa strategies on user conversions and engagement to optimize marketing campaigns.
+
+### Key Results:
+
+	1.	Improve understanding of user behavior and engagement metrics.
+	2.	Identify statistically significant differences in conversion rates between the groups.
+	3.	Provide actionable insights for campaign strategy adjustments.
+
+## 📝 Hypothesis
 
 	•	Null Hypothesis (H₀): There is no difference in conversion rates between the ad and psa groups.
 	•	Alternative Hypothesis (Hₐ): The ad group has a higher conversion rate than the psa group.
 
-📊 Dataset
+## 📊 Dataset
 
-	•	Source: Marketing A/B Testing Dataset on Kaggle
-	•	Columns:
+The dataset was sourced from Kaggle, and it contains the following columns:
+
+### Source: [Marketing A/B Testing Dataset on Kaggle](https://www.kaggle.com/datasets/faviovaz/marketing-ab-testing?resource=download)
+### Columns:
 	•	user id - Unique user identifier
 	•	test group - Campaign type (ad or psa)
 	•	converted - Whether the user converted (True/False)
@@ -24,52 +36,57 @@ The marketing team wants to identify the more effective campaign type between ad
 	•	most ads day - Day of the week when the most ads were seen
 	•	most ads hour - Hour of the day when the most ads were seen
 
-🧑‍💻 Data Preparation & Analysis Steps
+## Key Performance Indicators (KPIs)
 
-	1.	Data Loading & Cleaning:
-	•	Removed duplicates and null values.
-	•	Corrected data types.
+	1.	Conversion Rate: Percentage of users who converted in each group.
+	2.	Ads Viewed per User: Average number of ads viewed by users in each group.
+	3.	Statistical Significance (P-value): P-value from the Chi-Square Test to determine if differences in conversion rates are statistically significant.
+
+## 🧑‍💻 Data Preparation & Analysis Steps
+
+	1.	Data Preparation:
+	•	Processed and cleaned the dataset for analysis.
+	•	Converted converted column from boolean to binary for statistical tests.
 	2.	Exploratory Data Analysis (EDA):
-	•	Descriptive statistics.
-	•	Group-level analysis of conversion rates and ad engagement.
-	3.	Visualizations:
-	•	Bar plot of conversion rates by test group.
-	•	Box plot of total ads viewed by conversion status.
-	•	Heatmap of the Chi-Square test contingency table.
-	4.	Statistical Testing:
-	•	Chi-Square Test: To check if the conversion rates differ significantly.
-	•	P-Value Interpretation: Statistical significance at a 95% confidence level.
+	•	Examined conversion rates and engagement metrics for both groups.
+	•	Visualized distributions and trends using bar plots, box plots, and heatmaps.
+	3.	Statistical Testing:
+	•	Conducted a Chi-Square Test to evaluate the statistical significance of differences in conversion rates.
+	4.	Visualization:
+	•	Bar plots for conversion rates by test group.
+	•	Box plots for total ads viewed by test group.
+	•	Heatmaps for ads viewed by hour and test group.
 
-📈 Key Findings
+## 📈 Key Findings
 
-	•	Conversion Rates:
-	•	Ad Group: X%
-	•	PSA Group: Y%
-	•	Statistical Test Results:
-	•	Chi-Square Statistic: Z
-	•	P-Value: W
-	•	Result: The difference is/is not statistically significant.
+### Metrics:
 
-🔍 Conclusions & Recommendations
+	1.	Conversion Rate:
+	•	Ad Group: 3.12%
+	•	PSA Group: 2.65%
+	2.	Ads Viewed per User (Engagement Metric):
+	•	Ad Group: 180.64 ads/user
+	•	PSA Group: 136.35 ads/user
+	3.	Statistical Significance (P-value):
+	•	Chi-Square Test P-value: 0.0158 (statistically significant)
 
-Based on the analysis, recommend whether the company should prioritize Ads or PSAs to optimize marketing campaigns. Include any future recommendations for improvement or further analysis (e.g., considering day and hour of ad views).
+### 🔍 Interpretations:
 
-🚀 How to Run the Project
+	•	The ad group performed significantly better than the psa group in terms of both conversion rate and engagement (ads viewed per user).
+	•	The statistical test confirmed that the differences between the groups are not due to random chance.
 
-	1.	Clone the Repository:
+### Recommendations
 
-git clone https://github.com/yourusername/ab-testing-project.git
+	1.	Allocate more resources to ad campaigns, as they yield higher conversions and user engagement.
+	2.	Further analyze the timing and content of ads to optimize their performance.
+	3.	Conduct follow-up tests to refine ad strategies and explore additional variations.
 
+### Limitations
 
-	2.	Install Required Libraries:
+	•	The dataset may not represent all demographics, as it is limited to users included in the test.
+	•	External factors (e.g., time of year, market trends) may influence results.
 
-pip install -r requirements.txt
-
-
-	3.	Run the Notebook:
-Open AB_Testing_Project.ipynb in Jupyter Notebook or any IDE.
-
-📂 Project Structure
+## 📂 Project Structure
 
 /ab-testing-project
   |-- data
@@ -81,4 +98,8 @@ Open AB_Testing_Project.ipynb in Jupyter Notebook or any IDE.
       |-- box_plot_ads_viewed.png
       |-- chi_square_heatmap.png
   |-- README.md
-  |-- requirements.txt
+
+## Tools Used
+
+	•	Programming: Python (pandas, numpy, seaborn, matplotlib, scipy)
+	•	Statistical Test: Chi-Square Test
