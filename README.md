@@ -86,19 +86,6 @@ The dataset was sourced from Kaggle, and it contains the following columns:
 	•	The dataset may not represent all demographics, as it is limited to users included in the test.
 	•	External factors (e.g., time of year, market trends) may influence results.
 
-## 📂 Project Structure
-
-ab-testing-marketing-campaign-analysis/
-├── data/
-   ├── marketing_AB.csv/
-├── notebooks/
-   ├── AB_Testing_Project.ipynb/
-├── visuals/
-   ├── bar_plot_conversion.png
-   ├── box_plot_ads_viewed.png
-   ├── chi_square_heatmap.png
-└── README.md/
-
 ## Tools Used
 
 	•	Programming: Python (pandas, numpy, seaborn, matplotlib, scipy)
