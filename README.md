@@ -70,6 +70,24 @@ The dataset was sourced from Kaggle, and it contains the following columns:
 	3.	Statistical Significance (P-value):
 	•	Chi-Square Test P-value: 0.0158 (statistically significant)
 
+**Visualizations**
+
+1.	**Conversion Rates by Test Group:**
+
+A bar chart comparing the conversion rates between the ad and psa groups.
+
+![bar_plot_conversion](https://github.com/user-attachments/assets/fdc78f84-8f45-4fc1-a900-888cc9c203fd)
+
+2.	**Ads Viewed Distribution:**
+
+A box plot showing the distribution of ads viewed by users in each group.
+
+![box_plot_ads_viewed](https://github.com/user-attachments/assets/896d7f6f-cb25-44cb-9126-c1aee6a75636)
+
+3.	**Chi Square Heatmap:**
+
+![chi_square_heatmap](https://github.com/user-attachments/assets/ccc0c795-a99c-4a96-be1d-9e37f05b17f6)
+
 ### 🔍 Interpretations:
 
 	•	The ad group performed significantly better than the psa group in terms of both conversion rate and engagement (ads viewed per user).
