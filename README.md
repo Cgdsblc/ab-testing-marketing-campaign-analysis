@@ -88,16 +88,16 @@ The dataset was sourced from Kaggle, and it contains the following columns:
 
 ## 📂 Project Structure
 
-/ab-testing-project
-  |-- data
-      |-- marketing_AB.csv
-  |-- notebooks
-      |-- AB_Testing_Project.ipynb
-  |-- visuals
-      |-- bar_plot_conversion.png
-      |-- box_plot_ads_viewed.png
-      |-- chi_square_heatmap.png
-  |-- README.md
+ab-testing-marketing-campaign-analysis/
+├── data/
+   ├── marketing_AB.csv/
+├── notebooks/
+   ├── AB_Testing_Project.ipynb/
+├── visuals/
+   ├── bar_plot_conversion.png
+   ├── box_plot_ads_viewed.png
+   ├── chi_square_heatmap.png
+└── README.md/
 
 ## Tools Used
 
