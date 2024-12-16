@@ -4,6 +4,10 @@
 
 This project analyzes the effectiveness of two marketing strategies: advertisements (ad group) versus public service announcements (psa group). Using an A/B testing dataset, we aim to determine which strategy leads to higher conversion rates through statistical analysis and data visualization.
 
+### Analysis Report [Notion]
+
+[Analysis Report]([https://www.kaggle.com/datasets/faviovaz/marketing-ab-testing?resource=download](https://spicy-eagle-938.notion.site/A-B-Testing-Project-Marketing-Campaign-Analysis-Report-15eceefbd479804584bedf822811c141?pvs=4))
+
 ## ❓ Problem Statement
 
 The marketing team wants to identify the more effective campaign type between ad and psa groups to optimize conversions while reducing marketing costs.
