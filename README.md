@@ -6,7 +6,7 @@ This project analyzes the effectiveness of two marketing strategies: advertiseme
 
 ### Analysis Report [Notion]
 
-[Analysis Report]((https://spicy-eagle-938.notion.site/A-B-Testing-Project-Marketing-Campaign-Analysis-Report-15eceefbd479804584bedf822811c141?pvs=4))
+[Analysis Report](https://spicy-eagle-938.notion.site/A-B-Testing-Project-Marketing-Campaign-Analysis-Report-15eceefbd479804584bedf822811c141?pvs=4)
 
 ## ❓ Problem Statement
 
