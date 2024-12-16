@@ -90,7 +90,7 @@ The dataset was sourced from Kaggle, and it contains the following columns:
 
 /ab-testing-project
   |-- data
-      |-- marketing_AB.csv (not uploaded, link to Kaggle)
+      |-- marketing_AB.csv
   |-- notebooks
       |-- AB_Testing_Project.ipynb
   |-- visuals
